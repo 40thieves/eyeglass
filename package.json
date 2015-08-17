@@ -9,6 +9,13 @@
   },
   "author": "Ali Smith <ali@alasdairsmith.co.uk>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/40thieves/eyeglass"
+  },
+  "bugs": {
+    "url": "https://github.com/40thieves/eyeglass/issues"
+  },
   "dependencies": {
     "react": "^0.14.0-beta1",
     "react-dom": "^0.14.0-beta1",
