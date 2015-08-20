@@ -1,10 +1,11 @@
 export default async (fakeError) => {
 	if (fakeError) throw new Error('Error thrown')
 
-	//return fakeResponse()
-	return serverResponse()
+	return fakeResponse()
+	//return serverResponse()
 }
 
+// Just a quick local server that I have set up (it's entirely unrelated to eyeglass, too lazy to set up a proper server)
 const url = (endpoint) => `http://ib.api` + endpoint
 
 async function serverResponse(endpoint) {
