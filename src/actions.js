@@ -1,3 +1,5 @@
+import api from './api'
+
 export const REQUEST_ARTICLE = 'REQUEST_ARTICLE'
 export function requestArticle() {
 	return {
@@ -33,19 +35,4 @@ export function fetchArticle(fail) {
 			dispatch(requestArticleError(error))
 		})
 	}
-}
-
-// faking out server response
-function api(fail) {
-	return new Promise((resolve, reject) => {
-		if (fail) reject({ message: 'Error thrown' })
-
-		setTimeout(() => {
-			resolve({
-				date: 'A Date',
-				title: 'A Title',
-				authors: ['Alice', 'Bob']
-			})
-		}, 2000)
-	});
 }
