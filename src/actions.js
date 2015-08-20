@@ -25,18 +25,7 @@ export function fetchArticle(fail) {
 	return dispatch => {
 		dispatch(requestArticle())
 
-		// faking out server response
-		return new Promise((resolve, reject) => {
-			if (fail) reject({ message: 'foo' })
-
-			setTimeout(() => {
-				resolve({
-					date: 'date',
-					title: 'title',
-					authors: ['Alice', 'Bob']
-				})
-			}, 2000)
-		})
+		return api(fail)
 		.then(payload => {
 			dispatch(receiveArticle(payload))
 		})
@@ -44,4 +33,19 @@ export function fetchArticle(fail) {
 			dispatch(requestArticleError(error))
 		})
 	}
+}
+
+// faking out server response
+function api(fail) {
+	return new Promise((resolve, reject) => {
+		if (fail) reject({ message: 'Error thrown' })
+
+		setTimeout(() => {
+			resolve({
+				date: 'A Date',
+				title: 'A Title',
+				authors: ['Alice', 'Bob']
+			})
+		}, 2000)
+	});
 }

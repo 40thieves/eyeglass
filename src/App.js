@@ -14,7 +14,7 @@ import ErrorMessage from './ErrorMessage'
 class Container extends Component {
 
 	componentWillMount() {
-		this.props.fetchArticle(true);
+		this.props.fetchArticle()
 	}
 
 	render() {
