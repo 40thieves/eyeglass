@@ -8,23 +8,8 @@ export default class MainPanel extends Component {
 	render() {
 		const { loading, article } = this.props;
 
-		if (loading || ! article) {
-			return renderLoading();
-		}
-		else {
-			return renderArticle.call(this);
-		}
-	}
-
-	function renderArticle() {
 		return (
-			<Header {...this.props.article} />
-		)
-	}
-
-	function renderLoading() {
-		return (
-			<Loading />
+			(loading || ! article) ?  <Loading /> : <Header { ...article } />
 		)
 	}
 
