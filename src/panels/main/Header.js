@@ -7,11 +7,15 @@ export default class Header extends Component {
 
 	render() {
 		return (
-			<div>
-				<p>{this.formatDate(this.props.date)}</p>
-				<p>{this.props.title}</p>
-				<p>{this.props.authors.map((author, key) => <Author key={author.id} { ...author } /> )}</p>
-			</div>
+			<header>
+				<span className="header__published-on">{this.formatDate(this.props.date)}</span>
+
+				<h1 className="header__title">{this.props.title}</h1>
+
+				<div className="header__authors">
+					{this.props.authors.map((author, key) => <Author key={author.id} { ...author } /> )}
+				</div>
+			</header>
 		);
 	}
 
