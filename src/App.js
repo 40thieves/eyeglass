@@ -20,20 +20,10 @@ class Container extends Component {
 	render() {
 		const { article } = this.props
 
-		let error;
-		if (article.error) error = this.renderError(article.error);
-
 		return (
 			<main className="app">
-				{error}
-				<MainPanel { ...article } />
+				{ article.error ? <ErrorMessage { ...article.error } /> : <MainPanel { ...article } /> }
 			</main>
-		)
-	}
-
-	renderError(error) {
-		return (
-			<ErrorMessage { ...error } />
 		)
 	}
 
