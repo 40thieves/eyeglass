@@ -18,9 +18,12 @@ function fakeResponse() {
 	return new Promise((resolve) => {
 		setTimeout(() => {
 			resolve({
-				date: 'A Date',
+				date: new Date,
 				title: 'A Title',
-				authors: ['Alice', 'Bob']
+				authors: [
+					{ id: 1, name: 'Alice' },
+					{ id: 2, name: 'Bob'}
+				]
 			})
 		}, 500)
 	});
