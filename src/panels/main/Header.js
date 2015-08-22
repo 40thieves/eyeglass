@@ -13,7 +13,7 @@ export default class Header extends Component {
 				<h1 className="header__title">{this.props.title}</h1>
 
 				<div className="header__authors">
-					{this.props.authors.map((author, key) => <Author key={author.id} { ...author } /> )}
+					{this.props.authors.map((author) => <Author key={author.id} { ...author } /> )}
 				</div>
 
 				<p className="header__doi">DOI: <a href={`http://dx.doi.org/${this.props.doi}`}>{this.props.doi}</a></p>
