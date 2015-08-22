@@ -9,8 +9,16 @@ export default class MainPanel extends Component {
 		const { loading, article } = this.props;
 
 		return (
-			(loading || ! article) ?  <Loading /> : <Header { ...article } />
+			(loading || ! article) ?  <Loading /> : this.renderArticle(article)
 		)
+	}
+
+	renderArticle(article) {
+		return (
+			<article className="article__wrapper">
+				<Header { ...article } />
+			</article>
+		);
 	}
 
 }
