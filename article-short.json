@@ -1,0 +1,756 @@
+{
+    "id": "00778",
+    "schema": [
+        "lens-article",
+        "2.0.0"
+    ],
+    "nodes": {
+        "document": {
+            "id": "document",
+            "type": "document",
+            "guid": "00778",
+            "views": [
+                "content",
+                "figures",
+                "citations",
+                "definitions",
+                "info"
+            ],
+            "title": "Direct single molecule measurement of TCR triggering by agonist pMHC in living primary T cells",
+            "abstract": "",
+            "authors": [
+                "contributor_1",
+                "contributor_2",
+                "contributor_3",
+                "contributor_4",
+                "contributor_5"
+            ]
+        },
+        "content": {
+            "id": "content",
+            "type": "view",
+            "nodes": [
+                "cover",
+                "heading_1",
+                "paragraph_1",
+                "paragraph_2",
+                "heading_2",
+                "paragraph_3",
+                "paragraph_4",
+                "paragraph_5",
+                "paragraph_6",
+                "heading_6",
+                "heading_7",
+                "paragraph_10",
+                "paragraph_11",
+                "paragraph_12",
+                "paragraph_13"
+            ]
+        },
+        "figures": {
+            "id": "figures",
+            "type": "view",
+            "nodes": [
+                "figure_1",
+                "video_1",
+                "figure_2"
+            ]
+        },
+        "citations": {
+            "id": "citations",
+            "type": "view",
+            "nodes": [
+                "article_citation_1",
+                "article_citation_2"
+            ]
+        },
+        "definitions": {
+            "id": "definitions",
+            "type": "view",
+            "nodes": []
+        },
+        "info": {
+            "id": "info",
+            "type": "view",
+            "nodes": [
+                "publication_info",
+                "contributor_1",
+                "contributor_2",
+                "contributor_3",
+                "contributor_4",
+                "contributor_5"
+            ]
+        },
+        "articleinfo": {
+            "id": "articleinfo",
+            "type": "paragraph",
+            "children": [
+                "heading_3",
+                "text_7",
+                "heading_4",
+                "paragraph_7",
+                "heading_5",
+                "paragraph_8",
+                "paragraph_9"
+            ]
+        },
+        "publication_info": {
+            "id": "publication_info",
+            "type": "publication_info",
+            "published_on": "2013-07-03",
+            "journal": "eLife",
+            "related_article": "",
+            "doi": "10.7554/eLife.00778",
+            "article_info": "articleinfo",
+            "article_type": "Research article",
+            "keywords": [
+                "TCR triggering",
+                "single molecule kinetics",
+                "T cells"
+            ],
+            "links": [
+                {
+                    "url": "http://cdn.elifesciences.org/elife-articles/00778/pdf/elife00778.pdf",
+                    "name": "PDF",
+                    "type": "pdf"
+                },
+                {
+                    "url": "https://s3.amazonaws.com/elife-cdn/elife-articles/00778/elife00778.xml",
+                    "name": "Source XML",
+                    "type": "xml"
+                },
+                {
+                    "url": "",
+                    "name": "Lens JSON",
+                    "type": "json"
+                }
+            ],
+            "subjects": [
+                "Biophysics and structural biology"
+            ],
+            "supplements": [],
+            "history": [
+                {
+                    "type": "received",
+                    "date": "2013-03-26"
+                },
+                {
+                    "type": "accepted",
+                    "date": "2013-05-17"
+                }
+            ],
+            "research_organisms": [
+                "Mouse"
+            ],
+            "provider": ""
+        },
+        "affiliation_1": {
+            "id": "affiliation_1",
+            "type": "affiliation",
+            "source_id": "aff1",
+            "label": null,
+            "department": null,
+            "city": "Berkeley",
+            "institution": "Department of Chemistry",
+            "country": "United States"
+        },
+        "affiliation_2": {
+            "id": "affiliation_2",
+            "type": "affiliation",
+            "source_id": "aff2",
+            "label": null,
+            "department": null,
+            "city": "Berkeley",
+            "institution": "Physical Biosciences Division",
+            "country": "United States"
+        },
+        "affiliation_3": {
+            "id": "affiliation_3",
+            "type": "affiliation",
+            "source_id": "aff3",
+            "label": null,
+            "department": null,
+            "city": "Berkeley",
+            "institution": "Department of Molecular and Cell Biology",
+            "country": "United States"
+        },
+        "affiliation_4": {
+            "id": "affiliation_4",
+            "type": "affiliation",
+            "source_id": null,
+            "label": null,
+            "department": null,
+            "city": null,
+            "institution": "Howard Hughes Medical Institute, Stanford University",
+            "country": "United States"
+        },
+        "affiliation_5": {
+            "id": "affiliation_5",
+            "type": "affiliation",
+            "source_id": null,
+            "label": null,
+            "department": null,
+            "city": null,
+            "institution": "Howard Hughes Medical Institute, Stanford University",
+            "country": "United States"
+        },
+        "contributor_1": {
+            "id": "contributor_1",
+            "source_id": "author-4813",
+            "type": "contributor",
+            "name": "Geoff P O'Donoghue",
+            "affiliations": [
+                "affiliation_1",
+                "affiliation_2"
+            ],
+            "fundings": [
+                "National Institute of Allergy and Infectious Diseases, PO1 AI091580"
+            ],
+            "bio": [],
+            "image": "",
+            "deceased": false,
+            "emails": [],
+            "contribution": "GPO, Conception and design, Acquisition of data, Analysis and interpretation of data, Drafting or revising the article",
+            "members": [],
+            "contributor_type": "Author",
+            "competing_interests": [
+                "The authors declare that no competing interests exist."
+            ],
+            "equal_contrib": []
+        },
+        "contributor_2": {
+            "id": "contributor_2",
+            "source_id": "author-4814",
+            "type": "contributor",
+            "name": "Rafal M Pielak",
+            "affiliations": [
+                "affiliation_1",
+                "affiliation_2"
+            ],
+            "fundings": [
+                "National Institute of Allergy and Infectious Diseases, PO1 AI091580"
+            ],
+            "bio": [],
+            "image": "",
+            "deceased": false,
+            "emails": [],
+            "contribution": "RMP, Conception and design, Acquisition of data, Analysis and interpretation of data, Drafting or revising the article",
+            "members": [],
+            "contributor_type": "Author",
+            "competing_interests": [
+                "The authors declare that no competing interests exist."
+            ],
+            "equal_contrib": []
+        },
+        "contributor_3": {
+            "id": "contributor_3",
+            "source_id": "author-4815",
+            "type": "contributor",
+            "name": "Alexander A Smoligovets",
+            "affiliations": [
+                "affiliation_1",
+                "affiliation_2",
+                "affiliation_3"
+            ],
+            "fundings": [
+                "National Institute of Allergy and Infectious Diseases, PO1 AI091580"
+            ],
+            "bio": [],
+            "image": "",
+            "deceased": false,
+            "emails": [],
+            "contribution": "AAS, Acquisition of data, Drafting or revising the article",
+            "members": [],
+            "contributor_type": "Author",
+            "competing_interests": [
+                "The authors declare that no competing interests exist."
+            ],
+            "equal_contrib": []
+        },
+        "contributor_4": {
+            "id": "contributor_4",
+            "source_id": "author-4816",
+            "type": "contributor",
+            "name": "Jenny J Lin",
+            "affiliations": [
+                "affiliation_1",
+                "affiliation_2"
+            ],
+            "fundings": [
+                "National Institute of Allergy and Infectious Diseases, PO1 AI091580"
+            ],
+            "bio": [],
+            "image": "",
+            "deceased": false,
+            "emails": [],
+            "contribution": "JJL, Acquisition of data, Drafting or revising the article",
+            "members": [],
+            "contributor_type": "Author",
+            "competing_interests": [
+                "The authors declare that no competing interests exist."
+            ],
+            "equal_contrib": []
+        },
+        "contributor_5": {
+            "id": "contributor_5",
+            "source_id": "author-4713",
+            "type": "contributor",
+            "name": "Jay T Groves",
+            "affiliations": [
+                "affiliation_1",
+                "affiliation_2"
+            ],
+            "fundings": [
+                "National Institute of Allergy and Infectious Diseases, PO1 AI091580"
+            ],
+            "bio": [],
+            "image": "",
+            "deceased": false,
+            "emails": [
+                "JTGroves@lbl.gov"
+            ],
+            "contribution": "JTG, Conception and design, Analysis and interpretation of data, Drafting or revising the article",
+            "members": [],
+            "contributor_type": "Author",
+            "competing_interests": [
+                "The authors declare that no competing interests exist."
+            ],
+            "equal_contrib": []
+        },
+        "article_citation_1": {
+            "id": "article_citation_1",
+            "source_id": "bib1",
+            "type": "citation",
+            "title": "T cell receptor signaling is limited by docking geometry to peptide-major histocompatibility complex",
+            "label": "",
+            "authors": [
+                "JJ Adams",
+                "S Narayanan",
+                "B Liu",
+                "ME Birnbaum",
+                "AC Kruse",
+                "NA Bowerman"
+            ],
+            "doi": "http://dx.doi.org/10.1016/j.immuni.2011.09.013",
+            "source": "Immunity",
+            "volume": "35",
+            "fpage": "681",
+            "lpage": "93",
+            "citation_urls": [],
+            "year": "2011"
+        },
+        "article_citation_2": {
+            "id": "article_citation_2",
+            "source_id": "bib1a",
+            "type": "citation",
+            "title": "Modeling T Cell antigen discrimination based on feedback control of digital ERK responses",
+            "label": "",
+            "authors": [
+                "G Altan-Bonnet",
+                "RN Germain"
+            ],
+            "doi": "http://dx.doi.org/10.1371/journal.pbio.0030356",
+            "source": "PLoS Biol",
+            "volume": "3",
+            "fpage": "e356",
+            "lpage": "",
+            "citation_urls": [],
+            "year": "2005"
+        },
+        "text_contributor_1_reference": {
+            "id": "text_contributor_1_reference",
+            "type": "text",
+            "content": "Geoff P O'Donoghue"
+        },
+        "contributor_reference_1": {
+            "id": "contributor_reference_1",
+            "type": "contributor_reference",
+            "path": [
+                "text_contributor_1_reference",
+                "content"
+            ],
+            "range": [
+                0,
+                18
+            ],
+            "target": "contributor_1"
+        },
+        "text_contributor_2_reference": {
+            "id": "text_contributor_2_reference",
+            "type": "text",
+            "content": "Rafal M Pielak"
+        },
+        "contributor_reference_2": {
+            "id": "contributor_reference_2",
+            "type": "contributor_reference",
+            "path": [
+                "text_contributor_2_reference",
+                "content"
+            ],
+            "range": [
+                0,
+                14
+            ],
+            "target": "contributor_2"
+        },
+        "text_contributor_3_reference": {
+            "id": "text_contributor_3_reference",
+            "type": "text",
+            "content": "Alexander A Smoligovets"
+        },
+        "contributor_reference_3": {
+            "id": "contributor_reference_3",
+            "type": "contributor_reference",
+            "path": [
+                "text_contributor_3_reference",
+                "content"
+            ],
+            "range": [
+                0,
+                23
+            ],
+            "target": "contributor_3"
+        },
+        "text_contributor_4_reference": {
+            "id": "text_contributor_4_reference",
+            "type": "text",
+            "content": "Jenny J Lin"
+        },
+        "contributor_reference_4": {
+            "id": "contributor_reference_4",
+            "type": "contributor_reference",
+            "path": [
+                "text_contributor_4_reference",
+                "content"
+            ],
+            "range": [
+                0,
+                11
+            ],
+            "target": "contributor_4"
+        },
+        "text_contributor_5_reference": {
+            "id": "text_contributor_5_reference",
+            "type": "text",
+            "content": "Jay T Groves"
+        },
+        "contributor_reference_5": {
+            "id": "contributor_reference_5",
+            "type": "contributor_reference",
+            "path": [
+                "text_contributor_5_reference",
+                "content"
+            ],
+            "range": [
+                0,
+                12
+            ],
+            "target": "contributor_5"
+        },
+        "cover": {
+            "id": "cover",
+            "type": "cover",
+            "title": "",
+            "authors": [
+                "text_contributor_1_reference",
+                "text_contributor_2_reference",
+                "text_contributor_3_reference",
+                "text_contributor_4_reference",
+                "text_contributor_5_reference"
+            ],
+            "abstract": "",
+            "breadcrumbs": [
+                {
+                    "name": "eLife",
+                    "url": "http://elifesciences.org/",
+                    "image": "http://lens.elifesciences.org/lens-elife/styles/elife.png"
+                },
+                {
+                    "name": "Research article",
+                    "url": "http://elifesciences.org/category/research-article"
+                },
+                {
+                    "name": "Biophysics and structural biology",
+                    "url": "http://elifesciences.org/category/biophysics-and-structural-biology"
+                }
+            ]
+        },
+        "heading_1": {
+            "id": "heading_1",
+            "type": "heading",
+            "level": 1,
+            "content": "Abstract"
+        },
+        "text_1": {
+            "id": "text_1",
+            "type": "text",
+            "content": "T cells discriminate between self and foreign antigenic peptides, displayed on antigen presenting cell surfaces, via the TCR. While the molecular interactions between TCR and its ligands are well characterized in vitro, quantitative measurements of these interactions in living cells are required to accurately resolve the physical mechanisms of TCR signaling. We report direct single molecule measurements of TCR triggering by agonist pMHC in hybrid junctions between live primary T cells and supported lipid membranes. Every pMHC:TCR complex over the entire cell is tracked while simultaneously monitoring the local membrane recruitment of ZAP70, as a readout of TCR triggering. Mean dwell times for pMHC:TCR molecular binding of 5 and 54 s were measured for two different pMHC:TCR systems. Single molecule measurements of the pMHC:TCR:ZAP70 complex indicate that TCR triggering is stoichiometric with agonist pMHC in a 1:1 ratio. Thus any signal amplification must occur downstream of TCR triggering."
+        },
+        "paragraph_1": {
+            "id": "paragraph_1",
+            "type": "paragraph",
+            "children": [
+                "text_1"
+            ],
+            "source_id": null
+        },
+        "text_2": {
+            "id": "text_2",
+            "type": "text",
+            "content": "DOI: http://dx.doi.org/10.7554/eLife.00778.001"
+        },
+        "paragraph_2": {
+            "id": "paragraph_2",
+            "type": "paragraph",
+            "children": [
+                "text_2"
+            ],
+            "source_id": null
+        },
+        "heading_2": {
+            "id": "heading_2",
+            "type": "heading",
+            "level": 1,
+            "content": "eLife digest"
+        },
+        "text_3": {
+            "id": "text_3",
+            "type": "text",
+            "content": "The immune system identifies and combats foreign objects, including pathogens, in the body. T cells are key components of the immune system, and each has a unique variant of a signalling complex known as the T cell receptor on its surface. T cells scan the surfaces of other cells in search of antigens, which are peptides (fragments of proteins) that derive from foreign pathogens such as viruses. Successful recognition of a foreign peptide leads to an immune response that, in most cases, ultimately rids the body of the pathogen. Most importantly, however, the immune system must be able to discriminate between peptides that are produced naturally in the body (â€˜selfâ€™ peptides) and foreign or â€˜non-selfâ€™ peptides. This is challenging because self peptides may have similar structures to non-self peptides and are often much more abundant."
+        },
+        "paragraph_3": {
+            "id": "paragraph_3",
+            "type": "paragraph",
+            "children": [
+                "text_3"
+            ],
+            "source_id": null
+        },
+        "text_4": {
+            "id": "text_4",
+            "type": "text",
+            "content": "Many models have been proposed to explain how T cells are able to detect just a few molecules of foreign peptide. According to some hypotheses the T cell receptors get together in clusters to function cooperatively; alternatively, it has been suggested that rapid binding of a foreign peptide to multiple T cell receptors sequentially can build up a strong signal. However, none of these phenomena have been directly observed."
+        },
+        "paragraph_4": {
+            "id": "paragraph_4",
+            "type": "paragraph",
+            "children": [
+                "text_4"
+            ],
+            "source_id": null
+        },
+        "text_5": {
+            "id": "text_5",
+            "type": "text",
+            "content": "O'Donoghue et al. now image the interactions between T cell receptors and peptides bound to molecules called major histocompatibility complexes (MHCs), and show that T cell activation can occur when a single foreign peptide binds to a single receptor. These interactions are long-lived and ultimately result in the recruitment of ZAP70, which has an important role in the activation of T cells, to the complex formed by the T cell, the peptide and the MHC molecule. Therefore, any amplification of the activating signal transmitted by non-self peptides occurs following receptor binding, in contrast to previous models."
+        },
+        "paragraph_5": {
+            "id": "paragraph_5",
+            "type": "paragraph",
+            "children": [
+                "text_5"
+            ],
+            "source_id": null
+        },
+        "text_6": {
+            "id": "text_6",
+            "type": "text",
+            "content": "DOI: http://dx.doi.org/10.7554/eLife.00778.002"
+        },
+        "paragraph_6": {
+            "id": "paragraph_6",
+            "type": "paragraph",
+            "children": [
+                "text_6"
+            ],
+            "source_id": null
+        },
+        "heading_3": {
+            "type": "heading",
+            "id": "heading_3",
+            "level": 3,
+            "content": "Reviewing Editor"
+        },
+        "text_7": {
+            "type": "text",
+            "id": "text_7",
+            "content": "Axel T Brunger, Howard Hughes Medical Institute, Stanford University, United States"
+        },
+        "heading_4": {
+            "type": "heading",
+            "id": "heading_4",
+            "level": 3,
+            "content": "Acknowledgements"
+        },
+        "text_8": {
+            "id": "text_8",
+            "type": "text",
+            "content": "The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. We thank David King of the HHMI Mass Spec Facility for peptide synthesis and Mass Spectroscopy, Nicole Fay, Kate Alfieri, and NiÃ±a Hartman for MHC purification, and Brian D Belardi for a critical reading of the manuscript."
+        },
+        "paragraph_7": {
+            "id": "paragraph_7",
+            "type": "paragraph",
+            "children": [
+                "text_8"
+            ],
+            "source_id": null
+        },
+        "heading_5": {
+            "type": "heading",
+            "id": "heading_5",
+            "level": 3,
+            "content": "Copyright & License"
+        },
+        "text_9": {
+            "id": "text_9",
+            "type": "text",
+            "content": "Â© 2013, O'Donoghue et al. "
+        },
+        "paragraph_8": {
+            "id": "paragraph_8",
+            "type": "paragraph",
+            "children": [
+                "text_9"
+            ],
+            "source_id": null
+        },
+        "text_10": {
+            "id": "text_10",
+            "type": "text",
+            "content": "This article is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use and redistribution provided that the original author and source are credited."
+        },
+        "paragraph_9": {
+            "id": "paragraph_9",
+            "type": "paragraph",
+            "children": [
+                "text_10"
+            ],
+            "source_id": null
+        },
+        "heading_6": {
+            "id": "heading_6",
+            "type": "heading",
+            "level": 1,
+            "content": "Main Text"
+        },
+        "text_11": {
+            "id": "text_11",
+            "type": "text",
+            "content": "An essential aspect of adaptive immunity is the ability of T cells to discriminate between structurally similar agonist and non-stimulatory self peptides bound to major histocompatibility complex (pMHC) molecules presented on the surface of antigen-presenting cells (APCs) (Weiss and Littman, 1994). Fewer than 10 agonist pMHC molecules can trigger T cells (Irvine et al., 2002; Manz et al., 2011), and the signaling response occurs on a timescale of seconds (Huse et al., 2007). It has been recognized for decades that subtle, peptide-specific differences in binding parameters, especially kinetic rates for the pMHC and T cell receptor (TCR) reaction, seem to be the basis of antigen recognition (Matsui et al., 1994; Tian et al., 2007). Experimental correlations between molecular pMHC:TCR binding kinetics, typically determined from solution assays of soluble extracellular domains and bulk measurements of T cell activity, have provided the foundation for much of this understanding."
+        },
+        "paragraph_10": {
+            "id": "paragraph_10",
+            "type": "paragraph",
+            "children": [
+                "text_11"
+            ],
+            "source_id": null
+        },
+        "text_12": {
+            "id": "text_12",
+            "type": "text",
+            "content": "From a physical point of view, the extreme sensitivity, selectivity, and apparent immunity to stochastic noise exhibited by TCR antigen recognition pose challenges to classical notions of ligand-receptor signaling (van der Merwe and Dushek, 2011; Dustin and Groves, 2012). For example, the maximum affinity a TCR can have for self pMHC ligands (non-triggering) is sharply defined and close to the affinity threshold for foreign pMHC (triggering). Consequently, every TCR is likely to bind a subset of the ever-present self pMHC molecules with affinities differing only slightly from genuine foreign agonist pMHC. If TCR triggering and signaling were simply proportional to TCR occupancy by ligand, then the abundance of self pMHC could easily overwhelm genuine agonist signals, rendering this as an ineffective discriminatory mechanism. Alternatively, each engagement of pMHC with TCR (serial triggering; Valitutti et al., 1995), perhaps with some minimum engagement time (kinetic proof reading; McKeithan, 1995; Rabinowitz et al., 1996), might define the threshold for TCR triggering. Other proposed mechanisms elaborate further, suggesting (pseudo) heterodimers (Irvine et al., 2002; Krogsgaard et al., 2005) of self and agonist pMHC molecules or pMHC-independent forms of trans activation (Cooper and Qian, 2008) of multiple TCR by a single agonist pMHC may be at work. Proving or disproving any of these various possibilities based on current data is confounded by the vast difference between ensemble biochemical measurements and cell population behavior. Substantial ambiguity with respect to the actual molecular mechanisms responsible for antigen triggering of T cells remains. A physically accurate understanding of this remarkable process will require simultaneous observations of the molecular binding kinetics, stoichiometry, and movement of individual signaling complexes in living T cells."
+        },
+        "paragraph_11": {
+            "id": "paragraph_11",
+            "type": "paragraph",
+            "children": [
+                "text_12"
+            ],
+            "source_id": null
+        },
+        "text_13": {
+            "id": "text_13",
+            "type": "text",
+            "content": "Here, we characterize the molecular interactions between pMHC and TCR, at the single molecule level, while simultaneously monitoring the local membrane recruitment of cytosolic Zeta-chain-associated protein kinase 70 (ZAP70) in live primary T cells. Every pMHC can be individually resolved and tracked for up to minutes before photobleaching by using a multi-timescale single molecule fluorescence imaging approach. Key to this strategy is the variable control of excitation light dose and exposure time to achieve hardware discrimination of molecular species with different mobilities. The pMHC molecules fall into two unambiguously distinguished classes: one undergoing fast random motion and the second moving slowly along linear trajectories. These slow moving pMHC are the bound pMHC:TCR complexes; they are only observed with agonist peptide and they spatially correlate with both TCR and recruitment of ZAP70. The linear trajectories of the pMHC:TCR complexes match the well-characterized cytoskeleton-driven movement of TCR during the formation of the immunological synapse (Campi et al., 2005; Yokosuka et al., 2005; DeMond et al., 2008; Yu et al., 2012). Thus a lone agonist pMHC bound to TCR leads to stable engagement of the resulting complex with the cytoskeleton. Single molecule intensity calibration of the number of ZAP70 recruited to the vicinity of each agonist pMHC indicates that TCR are triggered in a 1:1 stoichiometry with pMHC."
+        },
+        "paragraph_12": {
+            "id": "paragraph_12",
+            "type": "paragraph",
+            "children": [
+                "text_13"
+            ],
+            "source_id": null
+        },
+        "text_14": {
+            "id": "text_14",
+            "type": "text",
+            "content": "Associations of pMHC with TCR exhibited molecular binding dwell times with mean durations of 53.8 Â± 12.2 s and 5.2 Â± 0.2 s for AND and 5c.c7 TCRs, respectively. Individual dwell times are roughly exponentially distributed and are in general agreement with bulk solution measurements of pMHC:TCR kinetic off-rates for both TCRs (Corse et al., 2010; Huppa et al., 2010; Newell et al., 2011). However, dwell times measured from tracking experiments specifically correspond to spatial entrapment of pMHC with a TCR, or cluster of TCRs (Schamel and Alarcon, 2013), on the T cell surface. They do not necessarily correspond to individual molecular binding events with a single TCR. Indeed, recent studies (e.g., by FRET) have suggested that pMHC:TCR kinetic off-rates may be accelerated in living cells relative to in vitro measurements, possibly as a result of actively applied forces from the cytoskeleton (Huang et al., 2010; Huppa et al., 2010; Zhu et al., 2013). We explore the possibility that individual dwell times observed by tracking experiments could be composed of rapid unbinding and serial rebinding of pMHC to multiple TCR within a cluster. Results from a stochastic reaction-diffusion analysis, covering a wide range of parameter space, indicate that serial rebinding alone is unlikely to sustain entrapment. If pMHC thoroughly disengages from TCR, it will most likely escape. Structural flexibility within the pMHC:TCR complex (Adams et al., 2011; Hawse et al., 2012; Reboul et al., 2012) could give rise to apparently fast kinetics (e.g., in FRET measurements) without actual unbinding of pMHC from TCR. The tracking observations reported here directly reveal that the functional interaction between agonist pMHC and TCR is long-lived in living cells and that triggered TCR remain localized with the same pMHC."
+        },
+        "paragraph_13": {
+            "id": "paragraph_13",
+            "type": "paragraph",
+            "children": [
+                "text_14"
+            ],
+            "source_id": null
+        },
+        "heading_7": {
+            "id": "heading_7",
+            "source_id": "s1",
+            "type": "heading",
+            "level": 2,
+            "content": "Introduction"
+        },
+        "caption_1": {
+            "id": "caption_1",
+            "source_id": null,
+            "type": "caption",
+            "title": "paragraph_45",
+            "children": [
+                "paragraph_46",
+                "paragraph_47"
+            ]
+        },
+        "figure_1": {
+            "type": "figure",
+            "id": "figure_1",
+            "source_id": "fig1",
+            "label": "Figure 1.",
+            "url": "http://cdn.elifesciences.org/elife-articles/00778/jpg/elife00778f001.jpg",
+            "caption": "caption_1",
+            "position": "float"
+        },
+        "caption_2": {
+            "id": "caption_2",
+            "source_id": null,
+            "type": "caption",
+            "title": "paragraph_48",
+            "children": [
+                "paragraph_49",
+                "paragraph_50"
+            ]
+        },
+        "video_1": {
+            "id": "video_1",
+            "source_id": "video1",
+            "type": "video",
+            "label": "Video 1.",
+            "title": "",
+            "caption": "caption_2",
+            "poster": "http://api.elifesciences.org/v2/articles/00778/media/file/elife00778v001.jpg",
+            "url": "http://api.elifesciences.org/v2/articles/00778/media/file/elife00778v001.mp4",
+            "url_ogv": "http://api.elifesciences.org/v2/articles/00778/media/file//elife00778v001.ogv",
+            "url_webm": "http://api.elifesciences.org/v2/articles/00778/media/file//elife00778v001.webm"
+        },
+        "caption_3": {
+            "id": "caption_3",
+            "source_id": null,
+            "type": "caption",
+            "title": "paragraph_51",
+            "children": [
+                "paragraph_52",
+                "paragraph_53"
+            ]
+        },
+        "figure_2": {
+            "type": "figure",
+            "id": "figure_2",
+            "source_id": "fig2",
+            "label": "Figure 2.",
+            "url": "http://cdn.elifesciences.org/elife-articles/00778/jpg/elife00778f002.jpg",
+            "caption": "caption_3",
+            "position": "float"
+        }
+    }
+}
