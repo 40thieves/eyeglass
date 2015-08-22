@@ -19,10 +19,10 @@ function fakeResponse() {
 		setTimeout(() => {
 			resolve({
 				date: new Date,
-				title: 'A Title',
+				title: 'Science hackathons for developing interdisciplinary research and collaborations',
 				authors: [
-					{ id: 1, name: 'Alice' },
-					{ id: 2, name: 'Bob'}
+					{ id: 1, name: 'Derek Groen' },
+					{ id: 2, name: 'Ben Calderhead' }
 				]
 			})
 		}, 500)
