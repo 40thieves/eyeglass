@@ -12,5 +12,5 @@ export default class Author extends Component {
 
 Author.propTypes = {
 	name: PropTypes.string,
-	id: PropTypes.number
+	id: PropTypes.string
 }
