@@ -8,3 +8,50 @@ body {
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 }
 
+a {
+	color: #1B6685;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.article__wrapper {
+	line-height: 28.5px;
+	font-size: 17px;
+	padding: 20px 30px 15px;
+}
+
+.header {
+
+	&__published-on {
+		margin-top: 50px;
+		margin-bottom: 20px;
+		color: #666;
+		display: block;
+	}
+
+	&__title {
+		font-weight: 600;
+		line-height: 1.3em;
+		font-size: 30px;
+		padding-top: 20px;
+	}
+
+	&__authors {
+		padding-top: 30px;
+		color: #1B6685;
+	}
+
+	&__author {
+		font-size: 17px;
+		margin-right: 10px;
+		margin-bottom: 8px;
+		padding: 2px 1px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.05);
+			color: #0b9dd9;
+		}
+	}
+
+}

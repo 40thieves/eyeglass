@@ -4,7 +4,7 @@ export default class Author extends Component {
 
 	render() {
 		return (
-			<a href="#">{this.props.name}</a>
+			<a href="#" className="header__author">{this.props.name}</a>
 		)
 	}
 
