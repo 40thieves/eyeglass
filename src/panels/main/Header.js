@@ -15,6 +15,8 @@ export default class Header extends Component {
 				<div className="header__authors">
 					{this.props.authors.map((author, key) => <Author key={author.id} { ...author } /> )}
 				</div>
+
+				<p className="header__doi">DOI: <a href={`http://dx.doi.org/${this.props.doi}`}>{this.props.doi}</a></p>
 			</header>
 		);
 	}

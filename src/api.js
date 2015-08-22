@@ -20,6 +20,7 @@ function fakeResponse() {
 			resolve({
 				date: new Date,
 				title: 'Science hackathons for developing interdisciplinary research and collaborations',
+				doi: '10.7554/eLife.09944',
 				authors: [
 					{ id: 1, name: 'Derek Groen' },
 					{ id: 2, name: 'Ben Calderhead' }
