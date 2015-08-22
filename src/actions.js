@@ -1,5 +1,5 @@
 import api from './api'
-import Processor from './processor'
+import Processor from './support/Processor'
 
 export const REQUEST_ARTICLE = 'REQUEST_ARTICLE'
 export function requestArticle() {
