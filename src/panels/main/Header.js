@@ -8,7 +8,7 @@ export default class Header extends Component {
 	render() {
 		return (
 			<header>
-				<span className="header__published-on">{this.formatDate(this.props.date)}</span>
+				<time dateTime={this.props.date.toISOString()} className="header__published-on">{this.formatDate(this.props.date)}</time>
 
 				<h1 className="header__title">{this.props.title}</h1>
 
