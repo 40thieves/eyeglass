@@ -1,4 +1,5 @@
 import api from './api'
+import Processor from './processor'
 
 export const REQUEST_ARTICLE = 'REQUEST_ARTICLE'
 export function requestArticle() {
@@ -9,11 +10,9 @@ export function requestArticle() {
 
 export const RECEIVE_ARTICLE = 'RECEIVE_ARTICLE'
 export function receiveArticle(payload) {
-	let data = processHeader(payload);
-
 	return {
 		type: RECEIVE_ARTICLE,
-		payload: data
+		payload: (new Processor(payload)).process()
 	}
 }
 
@@ -36,24 +35,5 @@ export function fetchArticle(fail) {
 		.catch(error => {
 			dispatch(requestArticleError(error))
 		})
-	}
-}
-
-function processHeader(payload) {
-	let data = payload.nodes
-
-	let documentMeta = data.document
-	let publicationInfo = data.publication_info
-
-	// Pull author nodes out using author ids array
-	let authors = documentMeta.authors.map(function(id) {
-		return data[id]
-	})
-
-	return {
-		 publishDate: new Date(publicationInfo.published_on),
-		 title: documentMeta.title,
-		 authors: authors,
-		 doi: publicationInfo.doi
 	}
 }
