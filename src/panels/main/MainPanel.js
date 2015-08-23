@@ -29,10 +29,10 @@ export default class MainPanel extends Component {
 	renderText(text) {
 		switch (text.type) {
 			case 'heading':
-				return <Heading { ...text } />
+				return <Heading key={text.id} { ...text } />
 
 			case 'paragraph':
-				return <Paragraph { ...text } />
+				return <Paragraph key={text.id} { ...text } />
 		}
 	}
 }

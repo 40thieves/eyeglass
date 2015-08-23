@@ -57,6 +57,7 @@ export default class Processor {
 		if ( ! heading.content) throw new Error('Header content not found')
 
 		return {
+			id: heading.id,
 			type: heading.type,
 			level: heading.level,
 			content: heading.content
@@ -70,6 +71,7 @@ export default class Processor {
 		if ( ! textNode) throw new Error('Text node not found')
 
 		return {
+			id: paragraph.id,
 			type: paragraph.type,
 			content: textNode.content
 		}
