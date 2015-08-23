@@ -3,7 +3,7 @@ import moment from 'moment'
 
 import Author from './Author'
 
-export default class Header extends Component {
+export default class Cover extends Component {
 
 	render() {
 		return (

@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 
-import Header from './Header'
+import Cover from './Cover'
 import Loading from './Loading'
 import Heading from './Heading'
 import Paragraph from './Paragraph'
@@ -18,7 +18,7 @@ export default class MainPanel extends Component {
 	renderArticle(article) {
 		return (
 			<article className="article__wrapper">
-				<Header { ...article } />
+				<Cover { ...article } />
 				<article className="article__content">
 					{ article.text.map((text) => this.renderText(text)) }
 				</article>

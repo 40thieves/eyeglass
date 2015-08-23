@@ -6,12 +6,12 @@ export default class Processor {
 
 	process() {
 		return Object.assign({},
-			this.processHeader(),
+			this.processCover(),
 			this.processText()
 		)
 	}
 
-	processHeader() {
+	processCover() {
 		let nodes = this.data.nodes
 
 		let documentMeta = nodes.document
@@ -32,7 +32,7 @@ export default class Processor {
 		let nodes = this.data.nodes
 
 		let text = nodes.content.nodes
-			.filter((nodeId) => nodeId !== 'cover') // Filter out cover node - handled by processHeader()
+			.filter((nodeId) => nodeId !== 'cover') // Filter out cover node - handled by processCover()
 			.map((nodeId) => nodes[nodeId]) // Pull text nodes out using content node ids array
 			.map((node) => {
 				switch (node.type) {
