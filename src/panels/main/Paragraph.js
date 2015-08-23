@@ -10,3 +10,6 @@ export default class Paragraph extends Component {
 
 }
 
+Paragraph.PropTypes = {
+	content: PropTypes.string.isRequired
+}

@@ -28,7 +28,7 @@ export default class Cover extends Component {
 
 }
 
-Header.propTypes = {
+Cover.propTypes = {
 	publishDate: PropTypes.instanceOf(Date).isRequired,
 	title: PropTypes.string.isRequired,
 	authors: PropTypes.arrayOf(PropTypes.object),

@@ -17,3 +17,7 @@ export default class Heading extends Component {
 
 }
 
+Heading.PropTypes = {
+	level: PropTypes.number.isRequired,
+	content: PropTypes.string.isRequired
+}
