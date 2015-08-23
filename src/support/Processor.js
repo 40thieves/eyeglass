@@ -35,32 +35,40 @@ export default class Processor {
 			.filter((nodeId) => nodeId !== 'cover') // Filter out cover node - handled by processHeader()
 			.map((nodeId) => nodes[nodeId]) // Pull text nodes out using content node ids array
 			.map((node) => {
-				let content
+				switch (node.type) {
+					case 'paragraph':
+						return this.processParagraph(node, nodes)
 
-				if (node.type === 'paragraph') {
-					let textId = node.children[0]
-					let textNode = nodes[textId]
+					case 'heading':
+						return this.processHeading(node)
 
-					if ( ! textNode) throw new Error('Text node not found')
-
-					content = textNode.content
-				}
-				else if (node.type === 'heading') {
-					if ( ! node.content) throw new Error('Header content not found')
-
-					content = node.content
-				}
-				else {
-					throw new Error('Unknown node type')
-				}
-
-				return {
-					type: node.type,
-					content: content
+					default:
+						throw new Error('Unknown node type')
 				}
 			});
 
 		return { text }
+	}
+
+	processHeading(heading) {
+		if ( ! heading.content) throw new Error('Header content not found')
+
+		return {
+			type: heading.type,
+			content: heading.content
+		}
+	}
+
+	processParagraph(paragraph, textNodes) {
+		let textId = paragraph.children[0]
+		let textNode = textNodes[textId]
+
+		if ( ! textNode) throw new Error('Text node not found')
+
+		return {
+			type: paragraph.type,
+			content: textNode.content
+		}
 	}
 }
 
