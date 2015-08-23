@@ -55,6 +55,7 @@ export default class Processor {
 
 		return {
 			type: heading.type,
+			level: heading.level,
 			content: heading.content
 		}
 	}
