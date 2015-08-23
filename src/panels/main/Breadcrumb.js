@@ -6,7 +6,7 @@ export default class Breadcrumb extends Component {
 		let {name, url, image} = this.props
 
 		return (
-			<a href={url}>
+			<a href={url} className="cover__breadcrumb">
 				{ image ? <img src={image} title={name} /> : {name} }
 			</a>
 		)
