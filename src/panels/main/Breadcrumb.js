@@ -7,7 +7,7 @@ export default class Breadcrumb extends Component {
 
 		return (
 			<a href={url} className="cover__breadcrumb">
-				{ image ? <img src={image} title={name} /> : {name} }
+				{ image ? <img src={image} title={name} /> : name }
 			</a>
 		)
 	}
