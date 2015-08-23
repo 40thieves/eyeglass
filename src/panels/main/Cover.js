@@ -9,19 +9,19 @@ export default class Cover extends Component {
 	render() {
 		return (
 			<header>
-				<div className="header__breadcrumbs">
+				<div className="cover__breadcrumbs">
 					{this.props.breadcrumbs.map((crumb) => <Breadcrumb key={crumb.name} { ...crumb } /> )}
 				</div>
 
-				<time dateTime={this.props.publishDate.toISOString()} className="header__published-on">{this.formatDate(this.props.date)}</time>
+				<time dateTime={this.props.publishDate.toISOString()} className="cover__published-on">{this.formatDate(this.props.date)}</time>
 
-				<h1 className="header__title">{this.props.title}</h1>
+				<h1 className="cover__title">{this.props.title}</h1>
 
-				<div className="header__authors">
+				<div className="cover__authors">
 					{this.props.authors.map((author) => <Author key={author.id} { ...author } /> )}
 				</div>
 
-				<p className="header__doi">DOI: <a href={`http://dx.doi.org/${this.props.doi}`}>{this.props.doi}</a></p>
+				<p className="cover__doi">DOI: <a href={`http://dx.doi.org/${this.props.doi}`}>{this.props.doi}</a></p>
 			</header>
 		);
 	}
