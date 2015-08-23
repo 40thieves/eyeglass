@@ -16,6 +16,34 @@ a {
 	font-weight: normal;
 }
 
+h1 {
+	font-size: 30px;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 600;
+	line-height: 1.3em;
+}
+
+h2 {
+	font-size: 24px;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 600;
+	line-height: 40px;
+}
+
+h3 {
+	font-size: 21px;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 600;
+	line-height: 40px;
+}
+
+h4 {
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 600;
+	line-height: 40px;
+}
+
 .article__wrapper {
 	line-height: 28.5px;
 	font-size: 17px;
@@ -33,9 +61,6 @@ a {
 
 	&__title {
 		margin: 0;
-		font-weight: 600;
-		line-height: 1.3em;
-		font-size: 30px;
 		padding-top: 20px;
 	}
 
