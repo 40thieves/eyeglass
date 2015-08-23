@@ -14,6 +14,10 @@ a {
 	color: #1B6685;
 	text-decoration: none;
 	font-weight: normal;
+
+	&:hover {
+		color: #0b9dd9;
+	}
 }
 
 h1 {
@@ -93,7 +97,6 @@ h4 {
 
 		&:hover {
 			background-color: rgba(0, 0, 0, 0.05);
-			color: #0b9dd9;
 		}
 	}
 
