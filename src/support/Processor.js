@@ -14,6 +14,8 @@ export default class Processor {
 	processCover() {
 		let nodes = this.data.nodes
 
+		let breadcrumbs = nodes.cover.breadcrumbs
+
 		let documentMeta = nodes.document
 		let publicationInfo = nodes.publication_info
 
@@ -21,6 +23,7 @@ export default class Processor {
 		let authors = documentMeta.authors.map((id) =>  nodes[id])
 
 		return {
+			breadcrumbs: breadcrumbs,
 			publishDate: new Date(publicationInfo.published_on),
 			title: documentMeta.title,
 			authors: authors,
