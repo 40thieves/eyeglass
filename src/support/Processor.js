@@ -72,16 +72,20 @@ export default class Processor {
 		}
 	}
 
-	processParagraph(paragraph, textNodes) {
-		let textId = paragraph.children[0]
-		let textNode = textNodes[textId]
+	processParagraph(paragraph, allNodes) {
+		let textIds = paragraph.children
 
-		if ( ! textNode) throw new Error('Text node not found')
+		let textNodes = textIds.map((textId) => ({
+			id: allNodes[textId].id,
+			text: allNodes[textId].content
+		}))
+
+		if ( ! textNodes.length) throw new Error('Text node not found')
 
 		return {
 			id: paragraph.id,
 			type: paragraph.type,
-			content: textNode.content
+			content: textNodes
 		}
 	}
 }
