@@ -4,7 +4,9 @@ export default class Paragraph extends Component {
 
 	render() {
 		return (
-			<p>{this.props.content}</p>
+			<div className="paragraph">
+				{ this.props.content.map((content) => <p key={content.id}>{content.text}</p>) }
+			</div>
 		)
 	}
 
