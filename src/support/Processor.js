@@ -82,11 +82,22 @@ export default class Processor {
 
 		if ( ! textNodes.length) throw new Error('Text node not found')
 
-		return {
+		let metadataNodes = this.metadata
+		let associatedMeta = textIds
+			.map((textId) =>
+				metadataNodes.filter((meta) => meta.path[0] == textId)
+			)
+			.filter((m) => m.length)
+
+		var data = {
 			id: paragraph.id,
 			type: paragraph.type,
 			content: textNodes
 		}
+
+		if (associatedMeta) data.metadata = associatedMeta
+
+		return data
 	}
 }
 
