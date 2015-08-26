@@ -751,6 +751,43 @@
             "url": "http://cdn.elifesciences.org/elife-articles/00778/jpg/elife00778f002.jpg",
             "caption": "caption_3",
             "position": "float"
+        },
+        "strong_1": {
+            "type": "strong",
+            "path": [
+                "text_2",
+                "content"
+            ],
+            "range": [
+                0,
+                4
+            ],
+            "id": "strong_1"
+        },
+        "link_1": {
+            "type": "link",
+            "path": [
+                "text_2",
+                "content"
+            ],
+            "range": [
+                5,
+                46
+            ],
+            "url": "http://dx.doi.org/10.7554/eLife.00778.001",
+            "id": "link_1"
+        },
+        "strong_2": {
+            "type": "strong",
+            "path": [
+                "text_6",
+                "content"
+            ],
+            "range": [
+                0,
+                4
+            ],
+            "id": "strong_2"
         }
     }
 }
