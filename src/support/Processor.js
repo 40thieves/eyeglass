@@ -89,7 +89,7 @@ export default class Processor {
 		}
 
 		let associatedMeta = this.getMetadataForNodes(textIds)
-		if (associatedMeta) data.metadata = associatedMeta
+		if (associatedMeta.length) data.metadata = associatedMeta
 
 		return data
 	}
