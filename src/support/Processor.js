@@ -2,6 +2,14 @@ export default class Processor {
 
 	constructor(data) {
 		this.data = data;
+		this.metadata = this.filterMetadata();
+	}
+
+	filterMetadata() {
+		let metaTypes = ['link', 'strong', 'emphasis', 'superscript'];
+
+		// Filter nodes to find nodes with metadata types
+		return Object.values(this.data.nodes).filter((node) => node.type && metaTypes.indexOf(node.type) !== -1)
 	}
 
 	process() {
