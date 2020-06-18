@@ -77,31 +77,27 @@ export default class Processor {
 
 		let textNodes = textIds.map((textId) => ({
 			id: allNodes[textId].id,
-			text: allNodes[textId].content
+			text: allNodes[textId].content,
+			metadata: this.getMetadataForNode(textId)
 		}))
 
 		if ( ! textNodes.length) throw new Error('Text node not found')
 
-		var data = {
+		return {
 			id: paragraph.id,
 			type: paragraph.type,
 			content: textNodes
 		}
-
-		let associatedMeta = this.getMetadataForNodes(textIds)
-		if (associatedMeta.length) data.metadata = associatedMeta
-
-		return data
 	}
 
-	getMetadataForNodes(parentIds) {
-		let metadataNodes = this.metadata
+	getMetadataForNode(parentId) {
+		let metadata = this.metadata
+			.filter(meta => {
+				return meta.path[0] == parentId
+			})
 
-		return parentIds
-			.map((textId) =>
-				metadataNodes.filter((meta) => meta.path[0] == textId)
-			)
-			.filter((m) => m.length)
+		return metadata.length ? metadata : null
 	}
+
 }
 
